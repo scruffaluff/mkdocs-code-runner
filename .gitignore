@@ -14,3 +14,7 @@ dist/*
 doc/build/*
 poetry.lock
 examples/*
+
+# Temporaray
+tests/mkdocs.yml
+tests/docs/*
