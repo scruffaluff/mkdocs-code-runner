@@ -5,7 +5,8 @@
 ![](https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner/workflows/build/badge.svg)
 ![](https://img.shields.io/github/repo-size/wolfgangwazzlestrauss/mkdocs-code-runner)
 
-mkdocs-code-runner
+mkdocs-code-runner is an [MkDocs](https://www.mkdocs.org/) plugin which converts Javascript code
+blocks in Markdown files into runnable scripts for your browser.
 
 
 ## Getting Started

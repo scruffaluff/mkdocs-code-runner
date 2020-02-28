@@ -21,7 +21,7 @@ source = ["mkdocs_code_runner"]
 
 [tool.poetry]
 authors = ["Macklan Weinstein <wolfgangwazzlestrauss@gmail.com>"]
-description = "Mkdocs plugins for executing JavaScript code."
+description = "Mkdocs plugin for converting JavaScript code into runnable scripts."
 homepage = "https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner"
 keywords = []
 license = "MIT"
