@@ -30,10 +30,9 @@ readme = "README.md"
 version = "0.0.1"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-typer = "^0.0.8"
-typing-extensions = "^3.7.4"
+beautifulsoup4 = "^4.8.2"
 mkdocs = "^1.1"
+python = "^3.6"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
