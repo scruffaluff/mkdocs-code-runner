@@ -6,6 +6,30 @@ import pathlib
 import toml
 
 import mkdocs_code_runner
+from mkdocs_code_runner import lib
+
+
+def test_findall() -> None:
+    """Check that the JavaScript code is correctly found."""
+
+    query = "div.code-runner"
+    markdown = """
+    <div class="code-runner">
+
+    ```javascript
+    let x = 3;
+    console.log(x + 1);
+    ```
+
+    """
+
+    expected = """
+    let x = 3;
+    console.log(x + 1);
+    """.strip()
+
+    actual = list(lib.findall(markdown, query))[0]
+    assert actual == expected
 
 
 def test_version() -> None:
