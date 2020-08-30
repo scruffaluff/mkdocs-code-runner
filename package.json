@@ -5,8 +5,7 @@
     "lint": "prettier --check **/*.{css,html,js,json,md,yaml,yml}"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "speedscope": "^1.5.3"
+    "prettier": "^1.19.1"
   },
   "prettier": {
     "arrowParens": "always",
