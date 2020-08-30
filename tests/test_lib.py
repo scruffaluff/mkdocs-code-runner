@@ -51,7 +51,9 @@ def test_runner(markdown: str) -> None:
 def test_version() -> None:
     """Check that all the version tags are in sync."""
 
-    pyproject_path = pathlib.Path(mkdocs_code_runner.__file__).parents[2] / "pyproject.toml"
+    pyproject_path = (
+        pathlib.Path(mkdocs_code_runner.__file__).parents[2] / "pyproject.toml"
+    )
     expected = toml.load(pyproject_path)["tool"]["poetry"]["version"]
 
     actual = mkdocs_code_runner.__version__

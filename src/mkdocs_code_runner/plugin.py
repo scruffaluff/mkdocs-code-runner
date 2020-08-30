@@ -11,10 +11,16 @@ from mkdocs_code_runner import lib
 class CodeRunner(plugins.BasePlugin):
     """Plugin for executing JavaScript code."""
 
-    config_scheme = (("selector", config_options.Type(str, default="div.code-runner")),)
+    config_scheme = (
+        ("selector", config_options.Type(str, default="div.code-runner")),
+    )
 
     def on_page_markdown(
-        self, markdown: str, page: pages.Page, config: base.Config, files: files.Files
+        self,
+        markdown: str,
+        page: pages.Page,
+        config: base.Config,
+        files: files.Files,
     ) -> str:
         """Edit page copying JavaScript code into script element."""
 
