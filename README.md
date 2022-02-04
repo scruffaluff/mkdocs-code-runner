@@ -3,9 +3,9 @@
 </p>
 <p align="center">
   <img src="https://img.shields.io/pypi/v/mkdocs-code-runner" alt="PyPI Version">
-  <img src="https://img.shields.io/github/license/wolfgangwazzlestrauss/mkdocs-code-runner" alt="License">
-  <img src="https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner/workflows/build/badge.svg" alt="Build Status">
-  <img src="https://img.shields.io/github/repo-size/wolfgangwazzlestrauss/mkdocs-code-runner" alt="Repository Size">
+  <img src="https://img.shields.io/github/license/scruffaluff/mkdocs-code-runner" alt="License">
+  <img src="https://github.com/scruffaluff/mkdocs-code-runner/workflows/build/badge.svg" alt="Build Status">
+  <img src="https://img.shields.io/github/repo-size/scruffaluff/mkdocs-code-runner" alt="Repository Size">
 </p>
 
 mkdocs-code-runner is an [MkDocs](https://www.mkdocs.org/) plugin which converts

@@ -20,10 +20,10 @@ omit = ["**/plugin.py"]
 source = ["mkdocs_code_runner"]
 
 [tool.poetry]
-authors = ["Macklan Weinstein <wolfgangwazzlestrauss@gmail.com>"]
+authors = ["Macklan Weinstein <macklan.weinstein@gmail.com>"]
 classifiers = ["Programming Language :: Python :: 3.6"]
 description = "Mkdocs plugin for converting JavaScript code into runnable scripts."
-homepage = "https://github.com/wolfgangwazzlestrauss/mkdocs-code-runner"
+homepage = "https://github.com/scruffaluff/mkdocs-code-runner"
 keywords = []
 license = "MIT"
 name = "mkdocs-code-runner"
